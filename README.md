@@ -8,11 +8,11 @@ Date: March 2026
 
 ## Abstract
 ---
-This project presents a Real-Time Yoga Pose Detection and Correction System that leverages computer vision and machine learning techniques to assist users in performing yoga accurately. The primary objective is to address the lack of personalized guidance during self-practice, which often leads to incorrect postures and potential injuries. The system utilizes a webcam to capture live video input and applies pose estimation algorithms to detect key body landmarks in real time.
+- This project presents a Real-Time Yoga Pose Detection and Correction System that leverages computer vision and machine learning techniques to assist users in performing yoga accurately. The primary objective is to address the lack of personalized guidance during self-practice, which often leads to incorrect postures and potential injuries. The system utilizes a webcam to capture live video input and applies pose estimation algorithms to detect key body landmarks in real time.
 
-By analyzing joint angles and comparing them with predefined standard yoga poses, the system evaluates the user’s posture and identifies deviations. Based on this analysis, it provides instant feedback in the form of on-screen instructions to help users correct their alignment. Technologies such as computer vision libraries and deep learning frameworks are used to ensure efficient and accurate pose detection.
+- By analyzing joint angles and comparing them with predefined standard yoga poses, the system evaluates the user’s posture and identifies deviations. Based on this analysis, it provides instant feedback in the form of on-screen instructions to help users correct their alignment. Technologies such as computer vision libraries and deep learning frameworks are used to ensure efficient and accurate pose detection.
 
-The results demonstrate that the system can effectively recognize common yoga poses and provide meaningful corrective suggestions with minimal latency. This solution offers an accessible and cost-effective alternative to personal trainers, making yoga practice safer and more efficient for beginners and enthusiasts. Future improvements may include mobile application integration, advanced pose recognition, and personalized training recommendations.
+- The results demonstrate that the system can effectively recognize common yoga poses and provide meaningful corrective suggestions with minimal latency. This solution offers an accessible and cost-effective alternative to personal trainers, making yoga practice safer and more efficient for beginners and enthusiasts. Future improvements may include mobile application integration, advanced pose recognition, and personalized training recommendations.
 
 ## introduction
 ---
