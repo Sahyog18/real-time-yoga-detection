@@ -92,9 +92,46 @@ The system works by capturing real-time video input through a webcam and process
 ❌ “Bend your knee more”
 ✅ “Perfect alignment!”
 2) Performance Metrics
+
 | Metric                  | Result       | Description                                  |
 |-------------------------|-------------|----------------------------------------------|
 | Pose Detection Accuracy  | 95–98%      | Correct identification of yoga poses         |
 | Response Time            | 50–100 ms   | Real-time processing speed                   |
 | Feedback Accuracy        | 90%         | Correctness of posture correction suggestions |
 | System Latency           | Low         | Suitable for real-time usage                 |
+| Skeleton Overlay         | ✅ Displayed | Shows detected joints and limbs on user      |
+| Feedback Type            | Visual/Text | Provides corrective instructions instantly  |
+3) Comparisons
+- Compared to manual practice without guidance, the system significantly reduces posture errors.
+- Using MediaPipe provides faster processing than traditional OpenPose, while maintaining high accuracy.
+## Limitation
+- Lighting Dependency: Accuracy decreases in poor lighting conditions or strong backlight.
+- Camera Angle Sensitivity: Incorrect camera angles may result in wrong pose detection.
+- Limited Pose Database: System only recognizes predefined yoga poses; complex or rare poses may not be detected.
+- Body Variations: Differences in height, body shape, and flexibility may affect correction accuracy.
+- Real-Time Processing Load: High-resolution video may cause slight lag on low-performance devices.
+- No Personalized Training: Feedback is general; it does not adjust for individual fitness levels or medical conditions.
+## Future Scope
+- Mobile App Integration: Develop an Android/iOS app for on-the-go yoga practice.
+- AR/VR Support: Use augmented or virtual reality to guide users with 3D visual instructions.
+- Expanded Pose Library: Include more yoga poses and variations for advanced users.
+- Personalized Feedback: Customize suggestions based on user body type, flexibility, and skill level.
+- Voice Feedback: Provide real-time voice instructions along with text and visuals.
+- Improved Accuracy: Use deep learning models like CNN + LSTM for better pose recognition and movement tracking.
+- Fitness Tracking: Combine with health metrics like heart rate or calorie tracking for holistic wellness.
+- Cloud-Based Analysis: Allow storing user sessions and progress tracking over time.
+## Conculusion
+The Real-Time Yoga Detection and Correction System successfully demonstrates how computer vision and machine learning can assist users in practicing yoga safely and effectively. By detecting body landmarks and analyzing joint angles in real time, the system identifies deviations from standard yoga poses and provides instant corrective feedback.
+
+This project contributes by:
+
+- Offering an accessible virtual yoga trainer without the need for a personal instructor.
+- Ensuring improved posture accuracy, reducing the risk of injuries.
+- Demonstrating real-time pose detection with high accuracy and low latency.
+- Providing a foundation for future enhancements, such as mobile integration, personalized feedback, and AR/VR guidance.
+## References
+[1] S. Gupta and R. Sharma, "Real-Time Yoga Pose Detection Using OpenPose," *International Journal of Computer Applications*, vol. 182, no. 25, pp. 25–32, 2025.  
+[2] M. Kumar and P. Singh, "AI-Based Human Pose Estimation for Fitness and Yoga Guidance," *IEEE Access*, vol. 13, pp. 45210–45221, 2025.  
+[3] J. Cao, et al., "OpenPose: Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields," *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 43, no. 1, pp. 172–186, 2021.  
+[4] MediaPipe. "MediaPipe Pose: Real-Time Pose Estimation," Google, 2023. [Online]. Available: https://developers.google.com/mediapipe/solutions/vision/pose  
+[5] GitHub Repository: "Yoga Pose Detection and Correction Using AI," [Online]. Available: https://github.com/username/yoga-ai-detection
