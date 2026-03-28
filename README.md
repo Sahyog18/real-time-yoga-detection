@@ -31,13 +31,14 @@ Date: March 2026
 - Increase in home workouts and online fitness learning
 - Need for an affordable and accessible yoga assistant
 - Use of AI and computer vision to solve real-world problems
-  4) ## Objectives
+  
+4) ## Objectives
 - Develop a real-time yoga pose detection system
 - Detect body landmarks using computer vision
 - Compare user posture with ideal yoga poses
 - Provide instant feedback for correction
 - Improve accuracy and safety of yoga practice
-  5) ## Importance of the Project
+5) ## Importance of the Project
 - Helps beginners learn correct yoga techniques
 - Reduces risk of injuries
 - Acts as a virtual yoga trainer
