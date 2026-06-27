@@ -1,0 +1,41 @@
+====================================
+  YOGA POSE DETECTION — FILE STRUCTURE
+====================================
+
+real-time-yoga-detection/
+│
+├── README.md                        ← Project overview & setup guide
+├── NOTES.txt                        ← How to run (step-by-step)
+├── structure.txt                    ← Ye file (folder structure)
+│
+└── Yoga_pose_detection/
+    │
+    ├── app.py                       ← MAIN FILE — yahi run karo (Flask server + webcam inference)
+    ├── best.pt                      ← Trained YOLOv8 model weights (delete mat karna!)
+    ├── config.py                    ← Model settings (epochs, batch size, paths)
+    ├── utils.py                     ← Helper functions (angle calc, drawing skeleton)
+    ├── cocoToYoloFormatConverter.py ← Dataset convert karta hai COCO → YOLO format
+    ├── requirements.txt             ← Saari dependencies ki list (pip install ke liye)
+    ├── package-lock.json            ← Node package lock file
+    │
+    ├── img/                         ← Sample/test images folder
+    │
+    └── .idea/                       ← PyCharm IDE settings (ignore karo)
+        ├── inspectionProfiles/
+        ├── Yoga_pose_detection.iml
+        ├── misc.xml
+        ├── modules.xml
+        └── .gitignore
+
+====================================
+IMPORTANT FILES (ye 4 sabse zaroori)
+====================================
+
+  app.py          →  Yahi se sab start hota hai, isko run karo
+  best.pt         →  Model ka brain, bina iske detection nahi hogi
+  requirements.txt →  Sab libraries yahan listed hain
+  config.py       →  Kuch change karna ho (path, settings) to yahan karo
+
+====================================
+  Author: Sahyog | GitHub: @Sahyog18
+====================================
