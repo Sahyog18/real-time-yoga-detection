@@ -1,0 +1,59 @@
+====================================
+  YOGA POSE DETECTION — HOW TO RUN
+====================================
+
+REQUIREMENTS
+------------
+- Python 3.9+  →  https://www.python.org/downloads/
+  (Install karte waqt "Add Python to PATH" tick karo)
+- Webcam connected hona chahiye
+
+
+STEPS
+-----
+
+1. Project folder mein jao
+   cd real-time-yoga-detection\Yoga_pose_detection
+
+2. Virtual environment banao
+   python -m venv venv
+   venv\Scripts\activate
+
+3. Dependencies install karo
+   pip install -r requirements.txt
+
+4. Project run karo
+   python app.py
+
+5. Browser mein open karo
+   http://127.0.0.1:5000
+
+6. Band karna ho to
+   CTRL + C
+
+
+COMMON ERRORS
+-------------
+
+"python not recognized"
+  → Python reinstall karo, PATH tick karna mat bhoolo
+
+"No module named cv2"
+  → pip install opencv-python
+
+"No module named ultralytics"
+  → pip install ultralytics
+
+Webcam kaam nahi kar raha
+  → app.py mein change karo:
+    cv2.VideoCapture(0)  →  cv2.VideoCapture(1)
+
+"best.pt not found"
+  → best.pt file Yoga_pose_detection/ folder mein honi chahiye
+
+Port 5000 busy hai
+  → app.py mein change karo: app.run(port=5001)
+
+====================================
+  Author: Sahyog | GitHub: @Sahyog18
+====================================
